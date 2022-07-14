@@ -1,0 +1,144 @@
+body{
+    background-color:black ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
+    
+}
+.start{
+    background-color: aqua;
+    text-align: center;
+    left: 830px;
+    top: 400px;
+    font-size: 90px;
+    box-shadow: 3px -10px 10px cyan;
+    cursor: pointer;    
+    z-index:99;
+    position: absolute;
+}   
+main{
+    display:flex ;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+}
+.pengu{
+    height: 200px;
+    width: 170px;
+}
+.pinguin{
+    position:absolute;
+    top:700px;
+    left: 1px; 
+    visibility: hidden;
+}
+.spikediv{
+    position: absolute;
+    visibility: hidden;
+    top:700px;
+    left:200px
+}
+.spike1{
+    height: 300px;
+    width:500px
+}
+.spike1div{
+    position: absolute;
+    top:700px;
+    left:800px
+}
+.spike2{
+    visibility: hidden;
+    height: 300px;
+    width:400px
+}
+.spike3{
+    visibility: hidden;
+    height: 300px;
+    width:400px
+}
+.spike2div{
+    position: absolute;
+    top:700px;
+    left:1300px
+}
+.Dawg{
+    font-size:100px ;
+    color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    visibility: hidden;
+    position:absolute;
+}
+.life{
+color:red;
+font-size:80px ;
+top:0;
+left:0;
+position: absolute;
+visibility: hidden;
+
+}
+.life1{
+    position: absolute;
+    top:-0px;
+    left:150px;
+    font-size:63px;
+    visibility: hidden;
+}
+.retry{
+    background-color: aqua;
+    text-align: center;
+    font-size: 90px;
+    box-shadow: 3px -10px 10px cyan;
+    cursor: pointer;    
+    z-index:99;
+    visibility: hidden;
+    position: absolute;
+    left: 830px;
+    top: 400px;
+}
+.WOW{
+    background-color: aqua;
+    text-align: center;
+    font-size: 90px;
+    box-shadow: 3px -10px 10px cyan;
+    cursor: pointer;    
+    z-index:99;
+    visibility: hidden;
+    position: absolute;
+    left: 830px;
+    top: 400px;
+}
+.buttondead{
+    position:absolute;
+    color: aqua;
+    left: 550px;
+    top: 400px;
+    font-size: 100px;
+    visibility: hidden;
+}
+.winnumber{
+    color:rgb(0, 4, 255);
+    font-size:70px ;
+    top:0;
+    right: 150px;
+    position: absolute;
+    visibility: hidden;
+}
+.winnumber h3{
+    margin:0;
+    padding:0;
+}
+.winshow{
+    color:rgb(0, 4, 255);
+    font-size:85px ;
+    top:0;
+    right: 70px;
+    position: absolute;
+    visibility: hidden;
+}
+.winshow span{
+    margin:0;
+    padding:0;
+}
